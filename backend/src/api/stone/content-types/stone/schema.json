@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stones",
+  "info": {
+    "singularName": "stone",
+    "pluralName": "stones",
+    "displayName": "Stones"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}
