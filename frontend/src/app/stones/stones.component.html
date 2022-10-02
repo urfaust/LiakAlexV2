@@ -3,4 +3,16 @@
     <ul>
         <li *ngFor="let n of displayData">{{ n.attributes.Name}} || {{n.attributes.Description}} || {{n.attributes.Price}}</li>
     </ul>
-</div>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Description</td>
+            <td>Price</td>
+        </tr>
+        <tr *ngFor="let n of displayData">
+            <td>{{n.attributes.Name}}</td>
+            <td>{{n.attributes.Description}}</td>
+            <td>{{n.attributes.Price}}</td>
+        </tr>
+    </table>
+</div> 
